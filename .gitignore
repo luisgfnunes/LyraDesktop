@@ -1,69 +1,28 @@
-# Prerequisites
-*.d
+# --- Build Directories ---
+/build/
+/cmake-build-debug/
+/bin/
+/lib/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# --- IDE Specific (CLion, VS Code, Qt Creator) ---
+.idea/
+.vscode/
+*.user
+*.pro.user
+.qt/
+.qmlls.ini
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
+# --- CMake Caches & Generated Files ---
 CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+DartConfiguration.tcl
+InstallTestConfiguration.file
 cmake_install.cmake
 Makefile
-install_manifest.txt
-compile_commands.json
+install_manifest.txtc
+*.cmake
 
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
